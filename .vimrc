@@ -85,7 +85,8 @@ nnoremap <space> za
 
 au BufNewFile,BufRead *.js, *.html, *.css set tabstop=2 set shiftwidth=2
 
-colorscheme zenburn
+" colorscheme zenburn
+colorscheme jellybeans
 
 let NERDTreeIgnore=['\.pyc$', '\~$'] "ignore files in NERDTree
 set foldlevel=99
