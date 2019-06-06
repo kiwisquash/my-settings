@@ -83,7 +83,8 @@ nnoremap <space> za
 "
 "----------Stop python PEP 8 stuff--------------
 
-au BufNewFile,BufRead *.js, *.html, *.css set tabstop=2 set shiftwidth=2
+au BufRead,BufNewFile *js,*html,*css 
+\ set tabstop=2 shiftwidth=2
 
 " colorscheme zenburn
 colorscheme jellybeans
